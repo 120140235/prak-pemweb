@@ -1,1 +1,41 @@
+###Prak1###
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="Cat.jpg" alt="gambar 1" height="200" width="200">
+
+    <h1>It's Me, Cat</h1>
+    <p>Welcome to Campus</p>
+    <ul style="list-style:disc;">
+        <li><a href="">Institut Teknologi Sumatera </a></li>
+        <li><a href="">Teknik Informatika</a></li>
+        <li><a href="">Edinta Bahagia</a></li>
+    </ul>
+    <h1>Tentang Saya</h1>
+    <p>Saya adalah seorang mahasiswa prodi teknik informatika angkatan 2020, saat ini saya sudah memasuki semester 7</p>
+    <video width="200" height="200" src="videoplayback (1).mp4" controls></video>
+    <p>Video Lucu</p>
+
+    <form action="hasil.html" method="POST">
+        <h2> hubungi saya melalui kontak dibawah:</h2>
+        <label for="email">email: </label>  
+        <input type="text" id="email" name= "soal1" >
+        <p>Apakah ITERA punya Wifi kencang?</p>
+        <input type="radio" name="soal2" value="1"> iya <br>
+        <input type="radio" name="soal2" value="2"> Tidak <br>
+        <h2>Gambar Apakah dibawah ini?</h2>
+        <img width="200" height="200" src="buttomsss.webp">
+        <p></p>
+        <input type="checkbox" name="soal3" value="a"> Spongebob <br>
+        <input type="checkbox" name="soal3" value="b"> Squidward <br>
+        <input type="checkbox" name="soal3" value="c"> Patrik <br>
+        <button type="submit"> Simpan</button>
+    </body>
+</html>
