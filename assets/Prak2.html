@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="img/kelinci.jpg" />
+      <title>Tugas 2 (CSS)</title>
+    <link rel="stylesheet" href="Prak2.css">
+</head>
+<body>
+    <header>
+        <table>
+            <tr>
+                <td class="profile"><img src="img/kelinci.jpg" width="75px"></td>
+                <td class="profile"><h2>Edinta Bahagia</h2></td>
+            </tr>
+        </table>
+    </header>
+    
+    <nav>
+        <table>
+            <tr>
+                <td><a class="nav" href="https://www.itera.ac.id/" target="_blank">Kampus saya</a></td>
+                <td><a class="nav" href="https://www.instagram.com/edinta_bahagia/">Profil saya</a></td>
+                <td><a class="nav" href="https://github.com/edintabahagia/prak-pemweb" target="_blank">Github Gue</a></td>
+            </tr>
+        </table>
+    </nav>
+    
+    <section>
+        <h2>Tentang saya</h2>
+        <p>
+            Nama saya edinta bahagia dari program studi teknik informatika angkatan 2020. saya berasal dari tangerang. saat ini saya tinggal di belakang kampus Institut Teknologi Sumatera
+            </p>
+        <a class="video">
+            <video controls src="video animasi bergerak air terjun free_ gratis.mp4"></video>
+        </a><br>
+        
+    </section>
+
+    <section>
+        <h2>Pendidikan</h2>
+        <table class="school">
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Sekolah</th>
+                <th colspan="2">Tahun</th>
+            </tr>
+            <tr>
+                <th>Mulai</th>
+                <th>Selesai</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>SD Negeri 028226</td>
+                <td>2007</td>
+                <td>2013</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SMP Negeri 3 Binjai</td>
+                <td>2013</td>
+                <td>2016</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SMAN 6 tangerang</td>
+                <td>2016</td>
+                <td>2019</td>
+        </table>
+    </section>
+    
+    <section>
+        <h2>Kontak</h2>
+        <form>Email :
+            <input type="email" placeholder="Masukkan email">
+            <p>
+                Apakah Kamu mahasiswa ITERA?
+            </p>
+            <input type="radio" id="iya" name="tanya" value="Iya">
+            <label for="iya">Iya</label><br>
+            <input type="radio" id="tidak" name="tanya" value="Tidak">
+            <label for="tidak">Tidak</label><br>
+        </form>
+    </section>
+    
+    <footer>
+        &copy; 2023 - Bandar Lampung. All rights reserved.
+    </footer>
+</body>
+</html>
