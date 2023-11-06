@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hitung Bilangan Ganjil dan Genap</title>
+    <script>
+        function hitungGanjilGenap() {
+            // Mengambil bilangan yang dimasukkan oleh pengguna
+            var bilangan = parseInt(document.getElementById("bilangan").value);
+            
+            // Inisialisasi jumlah ganjil dan genap
+            var jumlahGanjil = 0;
+            var jumlahGenap = 0;
+
+            // Melakukan perulangan dari 1 hingga bilangan yang dimasukkan
+            for (var i = 1; i <= bilangan; i++) {
+                // Memeriksa apakah bilangan itu genap atau ganjil
+                if (i % 2 === 0) {
+                    jumlahGenap++;
+                } else {
+                    jumlahGanjil++;
+                }
+            }
+
+            // Menampilkan hasil perhitungan di dalam elemen <span>
+            document.getElementById("hasilGanjil").textContent = "Jumlah Bilangan Ganjil: " + jumlahGanjil;
+            document.getElementById("hasilGenap").textContent = "Jumlah Bilangan Genap: " + jumlahGenap;
+        }
+    </script>
+</head>
+<body>
+    <h1>Hitung Bilangan Ganjil dan Genap</h1>
+    <label for="bilangan">Masukkan Bilangan Bulat Positif:</label>
+    <input type="number" id="bilangan" required>
+    <button onclick="hitungGanjilGenap()">Hitung</button>
+    <br>
+    <span id="hasilGanjil"></span>
+    <br>
+    <span id="hasilGenap"></span>
+</body>
+</html>
